@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF2DF"
+    tools:context=".Frag1">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/enterdates"
+
+    android:layout_marginHorizontal="40dp"
+    android:layout_marginVertical="35dp"
+
+
+    />
+
+    <Button
+        android:id="@+id/scanbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btnrndd"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="12dp"
+        android:text="Scan >"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_centerHorizontal="true"
+        tools:typeface="serif" />
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".frag_dataenter"
+    android:background="#FFF2DF">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#414E93"
+    android:textSize="24dp"
+    android:layout_marginTop="12dp"
+    android:textStyle="bold"
+    android:layout_centerHorizontal="true"
+    android:text="Enter your data here"/>
+
+
+    <LinearLayout
+        android:id="@+id/laylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="83dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+
+        />
+
+
+    <Button
+        android:id="@+id/addmoreLVbtn"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/laylist"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/btnrndd"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:visibility="visible"
+        android:text="add more" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="58dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backdatabtn"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btnrndd"
+            android:text="back" />
+
+        <Space
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <Button
+            android:id="@+id/senddatabtn"
+            android:background="@drawable/btnrndd"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="send" />
+    </LinearLayout>
+
+
+</RelativeLayout>
